@@ -1,37 +1,39 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Righteous', cursive;
+    font-family: sans-serif;
 }
-
+/*make video full width of browser*/
 video{
     width: 100%;
 }
+/*position the video*/
 .homepage-video, .homepage-video video {
     position: relative;
-  }
-  .homepage-video video {
-      background-size: cover !important;
-      background-repeat: no-repeat !important;
-      background-position: 50% !important;
-  }
-  
-  .text-over-video {
+}
+.homepage-video video {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% !important;
+}
+/*position the text over the video*/
+.text-over-video {
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-  }
-
-  .text-over-video h1{
+}
+.text-over-video h1{
+    font-family: 'Righteous', cursive;
     color: dodgerblue;
     font-size: 4em;
     text-shadow: 2px 2px #333;
     transform: scale(1);
-	animation: pulse 2s infinite;
-  }
-  @keyframes pulse {
+    animation: pulse 2s infinite;
+}
+/*animate the h1*/
+@keyframes pulse {
 	0% {
 		transform: scale(0.95);
 	}
