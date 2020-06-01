@@ -3,19 +3,18 @@
     margin: 0;
 }
 body{
-    font-family: sans-serif;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,ff898b+100 */
-    background: #1e5799; /* Old browsers */
-    background: -moz-linear-gradient(top,  dodgerblue 0%, #ff898b 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  dodgerblue 0%,#ff898b 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  dodgerblue 0%,#ff898b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ff898b',GradientType=0 ); /* IE6-9 */
-    min-height: 1500px;
+    font-family: 'Righteous', cursive;;
     margin: 0;
+    background-color: #ddd;
 
 }
 a{
     text-decoration: none;;
+}
+p{
+    line-height: 20px;
+    margin: 10px 40px;
+    text-wrap: flex-wrap;
 }
 /*make video full width of browser*/
 video{
@@ -61,6 +60,9 @@ video{
 	}
 }
 /*nav styles*/
+nav{
+    background-color: dodgerblue;
+}
 ul.main-nav {
     margin: 0;
     padding: 0;
@@ -120,6 +122,37 @@ ul.main-nav {
       }
   
   }
+/*main body*/
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    border-right: dodgerblue 5px solid;
+    justify-content: center;
+}
+
+.column h2{
+    text-align: right;
+    padding-right: 20px;
+    
+}
+
+.double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
+}
   
 
 
