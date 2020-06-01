@@ -6,6 +6,7 @@ body{
     font-family: 'Righteous', cursive;;
     margin: 0;
     background-color: #ddd;
+    overflow-x: hidden;
 
 }
 a{
@@ -129,7 +130,6 @@ ul.main-nav {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    padding: 20px;
 }
 
 .column {
@@ -139,6 +139,30 @@ ul.main-nav {
     flex: 1;
     border-right: dodgerblue 5px solid;
     justify-content: center;
+}
+
+.item-full{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 100%;
+    flex: 1;
+}
+.item-half{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    flex-direction: row;
+    flex: 1;
+}
+
+.item-full img{
+
+    width: 500px;
+}
+.item-half img{
+
+    width: 250px;
 }
 
 .column h2{
@@ -153,6 +177,27 @@ ul.main-nav {
     flex-basis: 100%;
     flex: 2;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.1fr 3fr 1.7fr;
+    grid-template-rows: 1fr;
+    gap: 1px 1px;
+    grid-template-areas: ". . .";
+    padding-left: 40px;
+  }
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr;
+    gap: 1px 1px;
+    grid-template-areas: ". . . .";
+    padding-left: 40px;
+  }
+
+  section{
+      margin: 40px 0;
+  }
   
 
 
