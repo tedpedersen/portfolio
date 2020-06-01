@@ -11,7 +11,11 @@ body{
     background: linear-gradient(to bottom,  dodgerblue 0%,#ff898b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ff898b',GradientType=0 ); /* IE6-9 */
     min-height: 1500px;
+    margin: 0;
 
+}
+a{
+    text-decoration: none;;
 }
 /*make video full width of browser*/
 video{
@@ -57,23 +61,66 @@ video{
 	}
 }
 /*nav styles*/
-header nav {
-    padding: 15px 0;
-    font-size: 20px;
-}
+ul.main-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .main-nav {
+      margin-top: 5px;
+  
+  }
 
-header nav ul {
-    list-style-type: none;
-    display: flex;  
-}
-
-header nav ul li {
-    flex: 1;
-}
-header nav ul li a{
-    color: #fff;
-    font-family: 'Righteous', cursive;
-}
+  .main-nav a {
+      padding: 10px 15px;
+      text-transform: uppercase;
+      text-align: center;
+      display: block;
+  }
+  
+  .main-nav a {
+      font-size: .99em;
+      font-family: 'Righteous', cursive;
+      color: #fff;
+  }
+  
+  .main-nav a:hover {
+      color: purple;
+      font-family: 
+  }
+  
+  .nav-overlay {
+      padding-top: .5em;
+      padding-bottom: .5em;
+  }
+  
+  /*nav media queries*/
+  @media (min-width: 769px) {
+      .nav-overlay,
+      .main-nav {
+          display: flex;
+      }
+      .nav-overlay {
+          flex-direction: column;
+          align-items: center;
+          .nav-overlay{
+          width: 80%;
+          margin: 0 auto;
+          max-width: 1150px;
+      }
+      }
+  
+  }
+  
+  @media (min-width: 1025px) {
+      .nav-overlay {
+          flex-direction: row;
+          justify-content: space-between;
+      }
+  
+  }
+  
 
 
 
