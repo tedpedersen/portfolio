@@ -2,6 +2,6 @@
 
 https://tedpedersen.github.io/portfolio/
 
-Advanced CSS assignment to create a portfolio. I wanted to do a little extra, add video and custom design and was told that was ok. 
+I have refactored my portfolio and now using UIkit.
 
-![Screenshot](https://raw.githubusercontent.com/tedpedersen/portfolio/master/assets/img/readme-ss.png)
+![Screenshot](https://raw.githubusercontent.com/tedpedersen/portfolio/master/img/readme-ss.png)
