@@ -1,0 +1,37 @@
+section{
+    padding: 20px 0;
+}
+body{
+    background: #ededed;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+header{
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+header span{
+    font-size: 2em;
+    color: #fff;
+}
+
+.blue-bg{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7abcff+0,60abf8+44,4096ee+100;Blue+3D+%2314 */
+background: #7abcff; /* Old browsers */
+background: -moz-linear-gradient(top,  #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); /* IE6-9 */
+
+}
+.uk-navbar-dropdown.uk-navbar-dropdown-bottom-right{
+ margin-top:0;
+}
+.uk-card-body{
+    padding: 0;
+}
+section{
+    padding: 75px 0;
+}
+.centered{
+    margin: 0 auto;
+}
