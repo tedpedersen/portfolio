@@ -1,4 +1,4 @@
-# Assignment #3 For Codeing Bootcamp
+# Ted Pedersen's Portfolio
 
 https://tedpedersen.github.io/portfolio/
 
