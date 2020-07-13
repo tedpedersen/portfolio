@@ -62,7 +62,6 @@
 <section class="uk-container uk-animation-fade" id="portfolio">
 <h1 class="uk-heading-divider uk-text-center">Some of my work...</h1> 
     <div uk-filter="target: .js-filter">
-
         <ul class="uk-subnav uk-subnav-pill">
             <li class="uk-active" uk-filter-control><a href="#">All</a></li>
             <li uk-filter-control="[data-color='white']"><a href="#">HTML/CSS/JS</a></li>
@@ -103,7 +102,7 @@
             <li data-color="black">
                 <div class="uk-card uk-card-secondary uk-card-body" uk-tooltip="JavaScript Password Creator"><a href="https://tedpedersen.github.io/password-gen/" target="_blank"><img src="img/11.png"></a></div>
             </li>
-            </ul>
+        </ul>
     </div>
 </section>
 <!-- end portfolio -->
@@ -133,12 +132,9 @@ typeSpeed: 30,
 loop: true
 });
 
-// animate text in header
+// make header correct size
 setTimeout(function(){ 
-// alert("Hello");
 document.querySelector(".particles-js-canvas-el").removeAttribute("height");
-// element.removeAttribute(x); 
-
 }, 300);
 
 // smooth scrolling for nav links
